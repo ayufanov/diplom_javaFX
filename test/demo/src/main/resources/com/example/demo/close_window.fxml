@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.CloseWindow">
+   <children>
+      <VBox prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Идентификатор" />
+                  <TextField fx:id="text_id" prefHeight="77.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Описание уязвимости&#10;" />
+                  <TextField fx:id="text_diskr" prefHeight="77.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Вендор&#10;" />
+                  <TextField fx:id="text_vendor" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Наименование ПО&#10;" />
+                  <TextField fx:id="text_name" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Версия ПО" />
+                  <TextField fx:id="text_version" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Тип ПО" />
+                  <TextField fx:id="text_type" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Операционные системы и аппаратные &#10;платформы" />
+                  <TextField fx:id="text_OS" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Тип Ошибки&#10;" />
+                  <TextField fx:id="text_err" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Идентификатор типа ошибки&#10;" />
+                  <TextField fx:id="text_id_err" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Класс уязвимости&#10;" />
+                  <TextField fx:id="text_vul_class" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Дата выявления" />
+                  <TextField fx:id="text_date" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Базовый вектор уязвимости" />
+                  <TextField fx:id="text_base_vector" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Уровень опасности уязвимости&#10;" />
+                  <TextField fx:id="text_dang_lvl" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="178.0" prefWidth="1920.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Возможные меры по  &#10;устранению уязвимости" />
+                  <TextField fx:id="text_measures" prefHeight="184.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Статус уязвимости" />
+                  <TextField fx:id="text_vul_status" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Ниличие эксплойта" />
+                  <TextField fx:id="text_expliot" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Информация от устранении" />
+                  <TextField fx:id="text_elim_info" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Идентификаторы систем описаний &#10;уязвимостей" />
+                  <TextField fx:id="text_id_sys" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+            <HBox prefHeight="50.0" prefWidth="200.0">
+               <children>
+                  <TextArea prefHeight="50.0" prefWidth="240.0" text="Прочая информация" />
+                  <TextField fx:id="text_info" prefHeight="50.0" prefWidth="1679.0" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
